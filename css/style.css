@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.bg{
+    
+}
+.logo{
+    margin-bottom: 10px;
+    font-size:35px ;
+    margin-left: 5px;
+}
+.logo span{
+    color: #ffc800;
+    font-size: 45px;
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(110deg, white 68%, yellow 32%);
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.ul-bg{
+    background-color: black;
+}
+nav .nav-item a:hover{
+    background-color: #0000ff;
+
+}
+.home.sticky-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #ffffff; /* Adjust the background color as needed */
+    z-index: 100;               /* Ensure it appears above other elements */
+  }
+.home-sec{
+    font-family: 'Roboto Serif', serif;
+}
+.home-sec h1{
+    margin-left: 40px;
+    font-size:50px ;
+    text-shadow: 1px 0px 0px black;
+
+}
+.home-sec p{
+    font-size:25px ;
+    
+}
+.home-sec span{
+    font-size:70px;
+    text-shadow: 1px 1px 1px black;
+    color: red;
+    
+}
+.Btn{
+    letter-spacing: 2px;
+    background-color: black;
+    color: white;
+    border-radius:5px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: yellow;
+    color: black;
+    border: none;
+}
+.img{
+    flex: 1 1 300px;
+    width: 85%;
+    animation: c 5s linear infinite;
+
+}
+@keyframes c{
+    0%, 100%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(30px);
+    }
+}
+#top-icons{
+    margin-top: 50px;
+
+}
+#top-icons h1{
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    border-bottom: 2px solid #ffc800;
+    text-shadow: 1px 1px 1px black;
+}
+#top-icons i img{
+    width: 100px;
+}
+#top-icons h3{
+    font-size: 20px;
+    font-family:'Roboto Serif', serif;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+#cards{
+    margin-top: 10px;
+    margin: 20px;
+    
+    
+}
+.borderTop{
+    margin-top: 5px;
+    border-top: 2px solid #ffc800;
+    text-shadow: 1px 1px 1px black;
+
+}
+#cards h3{
+    color: rgba(34, 23, 22, 0.9);
+
+    font-size: 30px;
+}
+#cards p{
+    color: black;
+    
+}
+.button{
+    align-items: center;
+    margin-bottom: 5px;
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    background: transparent;
+    color: yellow;
+    border: 2px solid yellow;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+    transition: 0.5 ease;
+    cursor: pointer;
+}
+.cardsR{
+
+    margin: 20px;
+}
+
+
+
+.cardSec {
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px black ;
+
+}
+.cardSec h3{
+    margin-top: 5px;
+    
+}
+.cardSec:hover{
+    background-color: #ffc800;
+}
+.cardSec span{
+ justify-items: end;
+
+}
+.imageSec{
+    margin-top: 10px;
+    width: 250px;
+    align-items: center;
+    border-radius: 5px ;
+}
+.product{
+    margin-top: 100px;
+    width: 100%;
+    height: 60vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(/images/chbac.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.product h2{
+    font-size: 25px;
+    color: white;
+    font-family:'Roboto Serif', serif;
+}
+
+.other{
+    margin-top: 20px;
+    border-bottom: 2px solid #ffc800;
+    border-top: 2px solid #ffc800;
+}
+#Othersec{
+    
+    margin-top: 20px;
+}
+.Piza{
+    width: 100%;
+    height: 60vh;
+}
+.Otherpiza{
+    background-color: #ffc800;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px black ;
+    transition: 0.5 ease;
+    cursor: pointer;
+
+    }
+    .Otherpiza:hover{
+        
+        transform: translateY(-10px);
+    }
+    #Othersec1{
+    
+        margin-top: 20px;
+    }
+    #contact{
+        margin-top: 20px;
+
+    }
+    .form{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 2px solid  #ffc800;
+        border-radius: 15px;
+        box-shadow: 1px 1px 1px black ;
+
+
+    }
+    
+    .info{
+        background-color: #00008B;
+        color: white !important;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 1px black ;
+    
+    }
+    .info p{
+        color: white !important;
+        font-family:'Roboto Serif', serif;
+    }
+    .info h1{
+        font-family:'Roboto Serif', serif;
+    }
+    #footer{
+        padding: 0 0 30px 0;
+        font-family:'Roboto Serif', serif;
+         color: white !important;
+         font-size: 15px;
+         background: #ffc800;
+         font-weight: bold;
+         text-shadow: 0px 0px 1px black;
+
+
+    }
+    #footer .footer-top{
+        padding: 60px 0px;
+        border: 2px solid #ffc800;
+        font-weight: bold;
+        text-shadow: 1p 1px 1px black;
+        background: linear-gradient(110deg, black 68%,#ffc800 32%);
+        color: white !important;
+    }
+    .Bottom{
+        border-right: 2px solid #ffc800;
+    
+    }
+    .Bottom h3{
+        color: white !important;
+
+    }
+    .Bottom p{
+        color: white !important;
+
+    }
+    .Bottom ul li a{
+    list-style: none;
+    text-decoration: none;
+     margin: 20px;
+     font-size: 20px;
+     color: white;
+
+    }
+    .fa-brands {
+        font-size: 30px; /* Adjust the size of the icons as needed */
+        padding: 4px;
+      }
+      .social-links i{
+        text-align: center; /* Center the icon horizontally */
+        margin-bottom: 10px;
+
+      }
